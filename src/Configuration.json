@@ -1,0 +1,28 @@
+{
+  "variables": {
+    "type": {
+      "string": "s",
+      "list": "l",
+      "integer": "i",
+      "float": "f"
+    },
+    "scope": {
+      "local": "l",
+      "global": "g",
+      "interaction": "i",
+      "script": "s"
+    },
+    "prepender": "v",
+    "delimiter": "_"
+  },
+  "object_types": [
+    "/miscEntry",
+    "/miscExit",
+    "/miscIf",
+    "/miscAssign",
+    "/miscMultiAssign",
+    "/miscAttach",
+    "/miscMultiAttach",
+    "/miscSubroutine"
+  ]
+}
